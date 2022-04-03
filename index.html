@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site</title>
+</head>
+<body>  
+    <header>
+        <a href="#" class = "brand">Travel</a>
+        <div class="menu-btn">
+
+        </div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a style = "visibility: hidden;"id = "home-btn" href="#">Home</a>
+                <!-- <a href="#">About</a>
+                <a href="#">Explore</a> -->
+                <a id = "gallery-btn" href="#">Gallery</a>
+                <a id = "logIn-btn" href="#">Log in / Sign up</a>
+            </div>
+        </div>
+    </header>
+
+    <section class = "home">
+        <video class = "video-slide active" autoplay muted loop src="22.mp4"></video>
+        <video class = "video-slide" autoplay muted loop src="33.mp4"></video>
+        <video class = "video-slide" autoplay muted loop src="11.mp4"></video>
+        <video class = "video-slide" autoplay muted loop src="44.mp4"></video>
+        <video class = "video-slide" autoplay muted loop src="55.mp4"></video>
+
+
+
+        <div class="container-gallery">
+            <div class="card-content" >
+                <div class="card">
+                    <div class="card-image "><img class = "num1" src="images/card (-1).jpeg" alt=""></div>
+                </div>
+                <div class="card">
+                    <div class="card-image "><img class = "num2" src="images/card (0).jpeg" alt=""></div>
+                </div>
+                <div class="card">
+                    <div class="card-image "><img class = "num3" src="images/card (1).jpeg" alt=""></div>
+                </div> 
+            </div> 
+            
+        
+            <div class="pagination">
+                <li id = "btn1" class = "page-item current-page activeBtn">
+                    <a class = "page-link"href="#">1</a>
+                </li>
+                <li id = "btn2" class = "page-item current-page"><a class = "page-link"href="#">2</a></li>
+                <li id = "btn3"class = "page-item current-page"><a class = "page-link"href="#">3</a></li>
+                <li id = "btn4"class = "page-item current-page"><a class = "page-link"href="#">4</a></li>
+                <li id = "btn5"class = "page-item current-page"><a class = "page-link"href="#">5</a></li>
+                <li id = "btn6" class = "page-item current-page"><a class = "page-link"href="#">6</a></li>
+                <li id = "btn7" class = "page-item current-page"><a class = "page-link"href="#">7</a></li>
+            </div>
+        
+        </div>
+                <div  class="content active">
+                    <h1>Wonderful.<br><span>Island</span></h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, velit quos perferendis consequuntur vel, saepe voluptatibus ducimus eum minima consequatur rerum doloribus incidunt dolorum ipsum natus nisi! Voluptatibus dolorem recusandae dignissimos. Architecto consequatur voluptates neque corporis deserunt natus rerum quam.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="content">
+                    <h1>Camping.<br><span>Enjoy</span></h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, velit quos perferendis consequuntur vel, saepe voluptatibus ducimus eum minima consequatur rerum doloribus incidunt dolorum ipsum natus nisi! Voluptatibus dolorem recusandae dignissimos. Architecto consequatur voluptates neque corporis deserunt natus rerum quam.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="content">
+                    <h1>Adventure.<br><span>Off road</span></h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, velit quos perferendis consequuntur vel, saepe voluptatibus ducimus eum minima consequatur rerum doloribus incidunt dolorum ipsum natus nisi! Voluptatibus dolorem recusandae dignissimos. Architecto consequatur voluptates neque corporis deserunt natus rerum quam.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="content">
+                    <h1>Road trip.<br><span>Bizzare</span></h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, velit quos perferendis consequuntur vel, saepe voluptatibus ducimus eum minima consequatur rerum doloribus incidunt dolorum ipsum natus nisi! Voluptatibus dolorem recusandae dignissimos. Architecto consequatur voluptates neque corporis deserunt natus rerum quam.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="content">
+                    <h1>Feel nature.<br><span>Taste freedom</span></h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, velit quos perferendis consequuntur vel, saepe voluptatibus ducimus eum minima consequatur rerum doloribus incidunt dolorum ipsum natus nisi! Voluptatibus dolorem recusandae dignissimos. Architecto consequatur voluptates neque corporis deserunt natus rerum quam.</p>
+                    <a href="#">Read more</a>
+                </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class = "form-container-main disableImportant">
+                    <div class="form-container sign-in-form">
+                        <div class="form-box sign-in-box">
+                            <h2>Login</h2>
+                            <form action="">
+                                <div class="field">
+                                    <i class="fa-solid fa-at"></i>
+                                    <input type="email" placeholder="Email ID" required>
+                                </div>
+                                <div class="field">
+                                    <i class="fa-solid fa-lock"></i>
+                                    <input class = "password-input"type="password" placeholder="Password" required>
+                                    <div class="eye-btn"><i class="fa-solid fa-eye-slash"></i></div>
+                                </div>
+                                <div class="forgot-link">
+                                    <a href="">Forgot password?</a>
+                                </div>
+                                <input class = "submit-btn" type="submit" value = "Login">
+                            </form>
+                
+                            <div class="login-options">
+                                <p class = "text">Or login with..</p>
+                                <div class="other-logins">
+                                    <a href=""><img src="images/facebook.png" alt=""></a>
+                                    <a href=""><img src="images/google.png" alt=""></a>
+                                    <a href=""><img src="images/apple.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="imgBox sign-in-imgBox">
+                            <div class="sliding-link">
+                                <p>Don't have an account?</p>
+                                <span class = "sign-up-btn">Sign up</span>
+                            </div>
+                            <img src="images/signin-img.png" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="form-container sign-up-form">
+                        <div class="imgBox sign-up-imgBox">
+                            <div class="sliding-link">
+                                <p>Already a member?</p>
+                                <span class = "sign-in-btn">Sign in</span>
+                            </div>
+                            <img src="images/signup-img.png" alt="">
+                        </div>
+                        <div class="form-box sign-up-box">
+                
+                            <h2>Sign up</h2>
+                            <div class="login-options">
+                                <div class="other-logins">
+                                    <a href=""><img src="images/facebook.png" alt=""></a>
+                                    <a href=""><img src="images/google.png" alt=""></a>
+                                    <a href=""><img src="images/apple.png" alt=""></a>
+                                </div>
+                                <p class = "text">Or sign up with..</p>
+                            </div>
+                            <form action="">
+                                <div class="field">
+                                    <i class="fa-solid fa-at"></i>
+                                    <input type="email" placeholder="Email ID" required>
+                                </div>
+                                <div class="field">
+                                    <i class="fa-solid fa-user"></i>
+                                    <input type="text" placeholder="Full name" required>
+                                </div>
+                                <div class="field">
+                                    <i class="fa-solid fa-lock"></i>
+                                    <input type="password" placeholder="Password" required>
+                                </div>
+                                <div class="field">
+                                    <i class="fa-solid fa-lock-open"></i>
+                                    <input type="password" placeholder="Confirm Password" required>
+                                </div>
+                                <input class = "submit-btn" type="submit" value = "Sign up">
+                            </form>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+
+
+
+
+
+
+
+        <div  class="media-icons">
+            <a class = "icons" href=""><i class="fa-brands fa-twitter"></i></a>
+            <a class = "icons" href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a class = "icons" href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <div  class="slider-navigation">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/0b0db4d2c6.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -659,7 +659,7 @@ section {
 }
 
 
-@media screen and (max-width: 890px) {
+@media(max-width: 890px) {
     
     .form-container-main {
         margin-right: 200px;
